@@ -1,0 +1,56 @@
+:root {
+  --black: #191a15;
+  --light-gray: rgba(25, 26, 21, 0.05);
+  --green: #38cd3e;
+  --orange: #fc832c;
+  --orange-hover: #f37113;
+  --orange-bg: rgba(252, 131, 44, 0.2);
+  --blue: #3470ff;
+  --blue-hover: #255ee8;
+  --blue-bg: rgba(52, 112, 255, 0.2);
+  --aqua: #54be96;
+  --aqua-hover: #36a379;
+  --aqua-bg: rgba(84, 190, 150, 0.2);
+  --error: #ef5050;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  color: var(--light-gray);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
