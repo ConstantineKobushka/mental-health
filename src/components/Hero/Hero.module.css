@@ -1,0 +1,131 @@
+.section {
+  padding: 78px 0 100px;
+  overflow: hidden;
+}
+.inner {
+  display: flex;
+  gap: 125px;
+}
+.content {
+  flex-basis: 595px;
+  padding-top: 48px;
+}
+.title {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 82px; /* 102.5% */
+  letter-spacing: -1.6px;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+.titleSpan {
+  font-style: italic;
+  color: var(--orange);
+}
+.text {
+  max-width: 510px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.36px;
+  color: var(--black);
+  margin-bottom: 40px;
+}
+.link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.2px;
+  color: var(--white);
+  padding: 18px 50px;
+  border-radius: 30px;
+  background-color: var(--orange);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link:hover,
+.link:focus {
+  background-color: var(--orange-hover);
+}
+.arrowGet {
+  margin-left: 18px;
+}
+
+.image {
+  position: relative;
+}
+
+.decorUser {
+  position: absolute;
+  width: 48.173px;
+  height: 48.173px;
+  top: 38px;
+  right: -39px;
+  border-radius: 10px;
+  transform: rotate(15deg);
+  background-color: #fbc75e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twoUsers {
+  transform: rotate(-15deg);
+}
+.decorQuestion {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 185px;
+  left: -36px;
+  transform: rotate(-15deg);
+  border-radius: 10px;
+  background-color: #54be96;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question {
+  transform: rotate(15deg);
+}
+.decorPrice {
+  position: absolute;
+  top: 333px;
+  left: -101px;
+  padding: 32px;
+  border-radius: 20px;
+  background: var(--orange);
+}
+.decorPriceInner {
+  display: flex;
+  gap: 16px;
+}
+.decorPriceDecor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 13px;
+  background: var(--white);
+}
+.decorPriceText {
+  font-size: 14px;
+  line-height: normal;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 8px;
+}
+.decorPriceSpan {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--white);
+}
+.decorBg {
+  position: absolute;
+  width: 469px;
+  height: 469px;
+  border-radius: 469px;
+  background: #fc832c;
+  filter: blur(500px);
+  top: 294px;
+  left: 161px;
+}

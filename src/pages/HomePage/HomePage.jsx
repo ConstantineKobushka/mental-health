@@ -1,7 +1,9 @@
+import Hero from '../../components/Hero/Hero';
+
 import css from './HomePage.module.css';
 
 const HomePage = () => {
-  return <div>Home</div>;
+  return <Hero />;
 };
 
 export default HomePage;
