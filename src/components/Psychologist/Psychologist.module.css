@@ -1,0 +1,126 @@
+.item {
+  padding: 24px;
+  border-radius: 24px;
+  background-color: var(--white);
+}
+.inner {
+  display: flex;
+  gap: 24px;
+}
+.foto {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  padding: 12px;
+  border-radius: 30px;
+  border: 2px solid rgba(252, 131, 44, 0.2);
+}
+.img {
+}
+.onLine {
+  position: absolute;
+  top: 9px;
+  right: 14px;
+  width: 9px;
+  height: 9px;
+  background-color: #38cd3e;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+}
+.details {
+}
+.topInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.speciality {
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.spanWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: px;
+}
+.span {
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  color: var(--black);
+}
+.rating {
+  position: relative;
+  padding: 0 16px 0 24px;
+}
+.rating::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 16px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(25, 26, 21, 0.2);
+}
+.pricePerHour {
+  padding: 0 16px;
+  margin-right: 12px;
+}
+.price {
+  color: var(--green);
+}
+.favorit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.heartNormal {
+}
+.name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+  color: var(--black);
+  margin-bottom: 24px;
+}
+.description {
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 4px;
+}
+.descriptionSpan {
+  padding: 8px 16px;
+  border-radius: 24px;
+  background: var(--white-bg);
+}
+.experience {
+}
+.license {
+}
+.specialization {
+}
+.consultation {
+}
+.text {
+  margin-bottom: 14px;
+}
+.readMoreBtn {
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  color: var(--black);
+  text-decoration: underline 1px solid var(--black);
+  text-underline-offset: 3px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}

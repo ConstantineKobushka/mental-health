@@ -1,7 +1,8 @@
 :root {
   --white: #fbfbfb;
   --black: #191a15;
-  --light-gray: rgba(25, 26, 21, 0.05);
+  --white-bg: #f3f3f3;
+  --light-gray: #8a8a89;
   --green: #38cd3e;
   --orange: #fc832c;
   --orange-hover: #f37113;
@@ -52,7 +53,5 @@ button {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
   display: block;
 }
