@@ -1,7 +1,9 @@
+import Overlay from '../../components/Overlay/Overlay';
+
 import css from './FavoritesPage.module.css';
 
 const FavoritesPage = () => {
-  return <div>Favorites</div>;
+  return <Overlay />;
 };
 
 export default FavoritesPage;
